@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.bluebox {
+    background-color: #264C9F;
+    width: 700px;
+    height: 100vh;
+    margin-right: -5px;
+    margin-left: 50px;
+    margin-top: -10px;
+    margin-bottom: -30px;
+}
+
+.smallcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 700px;
+    height: 100vh;
+    margin-right: -5px;
+    margin-left: 50px;
+    margin-top: -30px;
+    margin-bottom: -10px;
+}
+.title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    margin-top: 0px;
+    color: #264C9F;
+}
+
+.login {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    padding-bottom: 15px;
+    padding-top: 50px;
+    margin-right: 250px;
+}
+
+.signup {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-right: 250px;
+    padding-bottom: 15px;
+    padding-top: 50px;
+}
+
+.vball {
+    position: absolute;
+    margin-top: -580px;
+    margin-left: 150px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-right: 250px;
+  
+}
